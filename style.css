@@ -451,3 +451,37 @@ footer {
     max-width: 1000px;
     font-family: "Montserrat", sans-serif;
 }
+
+.thanks__main {
+    max-width: 1000px;
+    margin: auto;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 5%;
+}
+
+.thanks__main h3 {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 90px;
+    margin: 0;
+}
+
+.thanks__main p {
+    margin: 5px 0px;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 600px) {
+    .thanks__main h3 {
+        font-size: 50px;
+    }
+
+    .thanks__main p {
+        font-size: 14px;
+    }
+}
