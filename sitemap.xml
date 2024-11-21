@@ -4,13 +4,16 @@
       <loc>https://www.influvise.site/</loc>
    </url>
    <url>
-      <loc>https://www.influvise.site/service</loc>
+      <loc>https://www.influvise.site/#service</loc>
    </url>
    <url>
-      <loc>https://www.influvise.site/about</loc>
+      <loc>https://www.influvise.site/#about</loc>
    </url>
    <url>
-      <loc>https://www.influvise.site/contact</loc>
+      <loc>https://www.influvise.site/#Contact</loc>
+   </url>
+   <url>
+      <loc>https://www.influvise.site/consulting</loc>
    </url>
    <url>
       <loc>https://www.influvise.site/policy</loc>
