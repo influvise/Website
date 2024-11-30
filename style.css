@@ -46,6 +46,13 @@ img {
     max-height: 400px;
 }
 
+.video {
+    aspect-ratio: 16/9;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
 label {
     font-family: var(--heading-font);
     font-weight: 500;
@@ -239,7 +246,7 @@ main {
     border-radius: 20px;
     padding: 30px;
     height: auto;
-    width: 70%;
+    width: 100%;
     margin: 5% auto;
     background: rgba(169, 169, 169, 0.1618);
     backdrop-filter: blur(16.18px);
@@ -373,6 +380,33 @@ main {
 
 #About2 {
     aspect-ratio: 1/1;
+}
+
+/* PROSPECT FORM */
+#Prospect {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(50px);
+    position: fixed;
+    z-index: 1000;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+#Prospect .card {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+
+
+/* VSL */
+#VSL {
+    width: 100%;
 }
 
 
