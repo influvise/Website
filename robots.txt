@@ -1,1 +1,4 @@
+User-agent: *
+Allow: /
 
+Sitemap: https://influvise.com/sitemap.xml
