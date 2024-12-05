@@ -1,18 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   <url>
-      <loc>https://www.influvise.com/</loc>
-   </url>
-   <url>
-      <loc>https://www.influvise.com/contact</loc>
-   </url>
-   <url>
-      <loc>https://www.influvise.com/get-started</loc>
-   </url>
-   <url>
-      <loc>https://www.influvise.com/privacy-policy</loc>
-   </url>
-   <url>
-      <loc>https://www.influvise.com/terms-and-conditions</loc>
-   </url>
+  
+  <!-- Home page -->
+  <url>
+    <loc>https://www.influvise.com/</loc>
+    <lastmod>2024-12-05</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Contact page -->
+  <url>
+    <loc>https://www.influvise.com/contact</loc>
+    <lastmod>2024-12-05</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Privacy Policy page -->
+  <url>
+    <loc>https://www.influvise.com/privacy-policy</loc>
+    <lastmod>2024-12-05</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Terms and Conditions page -->
+  <url>
+    <loc>https://www.influvise.com/terms-and-conditions</loc>
+    <lastmod>2024-12-05</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Get Started page -->
+  <url>
+    <loc>https://www.influvise.com/get-started</loc>
+    <lastmod>2024-12-05</lastmod>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
