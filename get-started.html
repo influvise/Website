@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="noindex, nofollow"> <!-- Prevent search engines from indexing -->
     <title>Get Started - Influvise</title>
     <meta name="description"
         content="Launch and manage your personalized merchandise store effortlessly. We handle everything from design to delivery, so you can focus on growing your brand.">
@@ -44,6 +45,17 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Structured Data (JSON-LD for SEO) -->
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "Get Started - Influvise",
+          "description": "Launch and manage your personalized merchandise store effortlessly. We handle everything from design to delivery, so you can focus on growing your brand.",
+          "url": "https://influvise.com/get-started"
+        }
+      </script>
 
 </head>
 
@@ -86,7 +98,8 @@
                     <!-- Form Inputs. Each input must have a name="" attribute -->
                     <input class="prospect input" type="text" name="prospect_name" placeholder="Full Name" required>
                     <input class="prospect input" type="email" name="prospect_email" placeholder="Email ID" required>
-                    <input class="prospect input" value="https://youtube.com/@" type="url" name="prospect_channel" placeholder="Channel URL" required>
+                    <input class="prospect input" value="https://youtube.com/@" type="url" name="prospect_channel"
+                        placeholder="Channel URL" required>
 
                     <!-- Honeypot Spam Protection -->
                     <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
@@ -136,16 +149,6 @@
     <!-- JavaScript Files -->
     <script src="../script.js" defer></script>
 
-    <!-- Structured Data (JSON-LD for SEO) -->
-    <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "WebPage",
-          "name": "Get Started - Influvise",
-          "description": "Launch and manage your personalized merchandise store effortlessly. We handle everything from design to delivery, so you can focus on growing your brand.",
-          "url": "https://influvise.com/get-started"
-        }
-      </script>
 </body>
 
 </html>
