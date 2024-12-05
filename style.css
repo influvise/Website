@@ -499,6 +499,9 @@ footer {
 /* RESPNSIVE LAYOUT */
 /* Mobile (max-width: 767px) */
 @media (max-width: 767px) {
+    .background {
+        background-attachment: scroll; /* Fallback for mobile */
+    }
 
     /* GRIDS */
     .one {
